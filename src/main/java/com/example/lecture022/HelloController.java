@@ -16,4 +16,9 @@ public class HelloController {
         return "Foo";
     }
 
+    @GetMapping("bar")
+    public String bar() {
+        return "Bar";
+    }
+
 }
